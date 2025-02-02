@@ -1,4 +1,6 @@
-🏙️ Project Overview
+# 설화(Seoulhwa)
+
+## 🏙️ Project Overview
 
 - 설화(Seoulhwa)는 서울의 매혹적인 이야기를 하루 동안의 투어와 세심하게 선정된 기념품을 통해 소개하는 플랫폼입니다.
 
@@ -10,27 +12,27 @@
 우리의 플랫폼은 **외국인 방문객**을 주요 대상으로 하여 영어로 제작되었으며, 관리 페이지는 한국어로 제공되어 효율적인 운영을 지원합니다.
 
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-Frontend
+### Frontend
 
 - React: 직관적이고 반응성이 뛰어난 UI/UX 개발.
 - Redux: 상태 관리와 효율적인 데이터 흐름 제공.
 - Tailwind CSS: 현대적이고 반응형 디자인 구현.
 
-Backend
+### Backend
 
 - Spring Boot: 확장 가능하고 안정적인 애플리케이션 개발.
 - MySQL & JPA: 데이터 저장 및 ORM(Object-Relational Mapping) 관리.
 
-Deployment & Tools
+### Deployment & Tools
 
 - IIS: Windows 기반의 안정적인 웹 애플리케이션 배포.
 - Tomcat: Java 기반 애플리케이션 실행을 위한 서블릿 컨테이너.
 - IntelliJ IDEA: 개발 효율성 향상을 위한 고급 IDE.
 
 
-🌟 Unique Features
+## 🌟 Unique Features
 
 1. Immersive Tours
     
@@ -55,7 +57,7 @@ Deployment & Tools
 
 
 
-👥 Team Members
+## 👥 Team Members
 
 - 혜리: 프론트엔드 개발자 & 프로젝트 리더
     - 프론트엔드 개발, UI/UX 설계, 프로젝트 조정.
@@ -68,7 +70,7 @@ Deployment & Tools
 
 
 
-🌍 Our Vision
+## 🌍 Our Vision
 
 설화는 단순히 장소를 방문하는 것을 넘어, 서울과 한국의 이야기를 발견하고 기억에 남는 경험을 선사합니다.
 
@@ -76,7 +78,7 @@ Deployment & Tools
 
 
 
-🔗 Links
+## 🔗 Links
 
 - Git Repository: [GitHub Repository](https://github.com/Haack3r/seoulQuest.git)
 - Live Site: [Seoulhwa Official](http://hyeri.wn7.com/)
