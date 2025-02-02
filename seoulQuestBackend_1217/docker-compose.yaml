@@ -1,0 +1,39 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: positivedb
+      MYSQL_USER: positiveuser
+      MYSQL_PASSWORD: 1234
+    networks:
+      - seoulhwa-backend_default
+    ports:
+      - published: 3306
+        target: 3306
+    volumes:
+      - type: volume
+        source: db_data_volume
+        target: /var/lib/mysql
+
+  db_ui:
+    image: ghcr.io/shyim/adminerevo:latest
+    ports:
+      - published: 8000
+        target: 8080
+    environment:
+      ADMINER_DEFAULT_DRIVER: server
+      ADMINER_DEFAULT_SERVER: db
+      ADMINER_DEFAULT_USER: positivedb
+      ADMINER_DEFAULT_PASSWORD: 1234
+      ADMINER_DEFAULT_DB: positivedb
+    networks:
+      - seoulhwa-backend_default
+
+volumes:
+  db_data_volume: {}
+
+networks:
+  seoulhwa-backend_default:
+    driver: bridge
+    name: seoulhwa-backend_default
